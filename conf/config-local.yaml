@@ -1,0 +1,21 @@
+run_mode: debug
+addr: :80
+name: lj-chain-center
+url: http://127.0.0.1
+max_ping_count: 10
+
+logger:
+  writers: file,stdout
+  logger_level: INFO
+  logger_file: logs/go-chain-center.log
+  log_format_text: false
+  rollingPolicy: size
+  log_rotate_date: 1
+  log_rotate_size: 20
+  log_backup_count: 7
+
+luban:
+  url:
+
+ant_bass:
+  url:
